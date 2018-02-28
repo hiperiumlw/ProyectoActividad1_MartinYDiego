@@ -1,0 +1,21 @@
+{
+  "name": "ProyectoActividad1_MartinYDiego",
+  "homepage": "https://github.com/hiperiumlw/ProyectoActividad1_MartinYDiego",
+  "authors": [
+    "Martin Danailov <hiperiumtv@gmail.com>"
+  ],
+  "description": "ProyectoActividad1",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "bootstrap": "^4.0.0"
+  }
+}
