@@ -37,12 +37,24 @@
                         </li>
                     </ul>
                     <ul class="navbar-nav ml-auto justify-content-end socialmedia">
-                        <li class="nav-item"><a href="#"><i class="fa fa-twitter "></i></a></li>
-                        <li><a href="#"><i class="fa fa-whatsapp"></i></a></li>
-                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                        <li><a href="#"><i class="fa fa-youtube "></i></a></li>
+                        <li class="nav-item">
+                            <a href="#"><i class="fa fa-twitter "></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-whatsapp"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-instagram"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-linkedin"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-youtube "></i></a>
+                        </li>
                     </ul>
                 </div>
             </nav>
@@ -106,16 +118,18 @@
         </section>
         <section>
             <div class="wrapper-informacion" id="enlace_quiensomos">
-                <div class="row fila_quiensomos">
-                    <div class="col-12 columna_quiensomos">
-                        <div class="quiensomos">
-                            <div class="texto_quiensomos">
-                                <div class="titulo_quiensomos"><h1>QUIEN SOMOS!</h1></div>
-                                <div class="descripcion_quiensomos">GeekHubs Travels es una agencia de viajes onine creada en 2009
-                                    para un equipo de viajeros entusiastas que deciden hacer de su pasion por conocer el mundo un modo de vida.
-                                    Desde nuestro inicios hemos diseñado mas de 500 viajes organizados a diferentes destinos de Europa, Norteamerica
-                                    y Asia.Nuestro objetivo ahora es ir ampliando horizontes poco a poco</div>
-                                <div class="boton_quiensomos"><button type="button" class="btn btn-primary">DESCUBRIR</button></div>
+                <div class="container-fluid">
+                    <div class="row fila_quiensomos">
+                        <div class="col-12 columna_quiensomos">
+                            <div class="quiensomos">
+                                <div class="texto_quiensomos">
+                                    <div class="titulo_quiensomos"><h1>QUIEN SOMOS!</h1></div>
+                                    <div class="descripcion_quiensomos">GeekHubs Travels es una agencia de viajes onine creada en 2009
+                                        para un equipo de viajeros entusiastas que deciden hacer de su pasion por conocer el mundo un modo de vida.
+                                        Desde nuestro inicios hemos diseñado mas de 500 viajes organizados a diferentes destinos de Europa, Norteamerica
+                                        y Asia.Nuestro objetivo ahora es ir ampliando horizontes poco a poco.</div>
+                                    <div class="boton_quiensomos"><button type="button" class="btn btn-primary">DESCUBRIR</button></div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -125,11 +139,11 @@
         <section>
             <div class="wrapper-mapa" id="enlace_dondeestamos">
                 <div class="row mapa">
-                    <div class="col-6 columna_mapa">
+                    <div class="col-12 col-md-6 columna_mapa">
                         <!--Google map-->
                         <div id="map-container" class="map-container" style="height: 400px"></div>
                     </div>
-                    <div class="col-6 columna_formulario">
+                    <div class="col-12 col-md-6 columna_formulario">
                         <div class="texto_formulario">
                             <p>E: enquiry@artiotravel.com</p>
                             <p>P: 0264 123 4567</p>
@@ -138,7 +152,7 @@
                             <form class="formulario">
                                 <input type="text" id="name" class="name" placeholder="Name*">
                                 <input type="email" id="email" class="email" placeholder="Email*"></br>
-                                <input type="number" id="phone" class="phone" placeholder="Phone*">
+                                <input type="text" class="input-medium bfh-phone" data-format="+1 (ddd) ddd-dddd" placeholder="Phone*">
                                 <input type="text" id="country" class="country" placeholder="Country*"><br>
                                 <textarea id="mensaje" placeholder="Message*"></textarea>
                             </form>
