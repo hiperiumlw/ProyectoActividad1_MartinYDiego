@@ -4,6 +4,128 @@ body {
     height: 100%;
 }
 
+/*DIEGO*/
+
+footer{
+    background-color:#000033;
+    color: #FFFFFF;
+}
+
+
+.container-fluid.cont .row #informacion h4 {
+    font-size: 12px;
+}
+
+
+.container-fluid.cont .row #ayuda h4 {
+    font-size: 12px;
+}
+
+#londres {
+
+    padding: 15px;
+    margin:5px;
+    width:32px;
+
+}
+#roma {
+
+    padding: 15px;
+    margin:5px;
+    width:32px;
+}
+
+#mykonos {
+
+    padding: 15px;
+    margin:5px;
+    width:32px;
+}
+
+#dublin {
+
+    padding: 15px;
+    margin:5px;
+    width:32px;
+}
+
+#paris {
+
+    padding: 15px;
+    margin:5px;
+    width:32px;
+}
+
+#amsterdam {
+
+    padding: 15px;
+    margin:5px;
+    width:32px;
+
+
+}
+
+#effect-hover .img {
+
+    height: auto;
+    background-size: cover;
+    margin: 20px auto;
+    position: relative;
+}
+
+#effect-hover #efecto {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 100%;
+    height: auto;
+    background-color: rgba(255,255,255,0.6);
+    opacity: 0;
+    transition: opacity 2s;
+}
+
+#effect-hover .img:hover #efecto {
+    opacity: 1;
+}
+
+#effect-hover h2 {
+    color: #051D35 ;
+    background-color: #3977B4 ;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    font-size: 30px;
+    transition-duration: 2s;
+    margin: 0px;
+}
+
+#effect-hover .img:hover h2 {
+    top: 50px;
+}
+
+#effect-hover p {
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-size: 30px;
+    transition-duration: 2s;
+    margin: 0px;
+}
+
+#effect-hover .img:hover p {
+    bottom: 100px;
+}
+/*DIEGO*/
+
+
+
 .wrapper_cabecera{
     min-height: 10em;
 
