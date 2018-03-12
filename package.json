@@ -1,0 +1,27 @@
+{
+  "name": "proyectoactividad1",
+  "version": "1.0.0",
+  "description": "ProyectoActividad1_MartinYDiego",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "browser-sync": "^2.23.6",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.9.3",
+    "gulp-concat": "^2.6.1",
+    "gulp-uglify": "^3.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hiperiumlw/ProyectoActividad1_MartinYDiego.git"
+  },
+  "author": "Martin Diego",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hiperiumlw/ProyectoActividad1_MartinYDiego/issues"
+  },
+  "homepage": "https://github.com/hiperiumlw/ProyectoActividad1_MartinYDiego#readme"
+}

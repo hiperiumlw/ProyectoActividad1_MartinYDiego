@@ -4,7 +4,7 @@ body {
     height: 100%;
 }
 
-/*DIEGO*/
+/*-----------DIEGO-------------*/
 
 footer{
     background-color:#000033;
@@ -122,10 +122,10 @@ footer{
 #effect-hover .img:hover p {
     bottom: 100px;
 }
-/*DIEGO*/
+/*-----------------DIEGO-------------------*/
 
 
-
+/*-------------MARTIN-----------*/
 .wrapper_cabecera{
     min-height: 10em;
 
@@ -195,6 +195,10 @@ footer{
     color:white;
 }
 
+.slide2 h2{
+    color:#151839;
+    font-weight: bolder;
+}
 .slide1 button{
     color: black;
     background-color: yellow;
@@ -203,7 +207,9 @@ footer{
     border-bottom: green;
 
 }
-
+.slide2 button{
+    background-color: #151839;
+}
 @media only screen and (max-width: 768px) {
 
     .slide1 h1{
@@ -303,7 +309,7 @@ footer{
 }
 
 .texto_quiensomos{
-    border: 3px solid #002147;
+    border: 3px solid #151839;
     width: 100%;
     min-height: 100%;
     padding: 1em;
@@ -311,7 +317,7 @@ footer{
 }
 .texto_quiensomos .titulo_quiensomos h1{
     font-size: 1.5em;
-    color: #002147;
+    color: #151839;
 }
 
 .texto_quiensomos .titulo_quiensomos h1:after{
@@ -329,7 +335,7 @@ footer{
 }
 
 .texto_quiensomos .descripcion_quiensomos{
-    color: #002147;
+    color: #151839;
     font-weight: normal;
     font-size: small;
     height: auto;
@@ -345,7 +351,7 @@ footer{
 .texto_quiensomos .boton_quiensomos button{
     color: yellow;
     font-weight: bolder;
-    background-color: #002147;
+    background-color: #151839;
     min-width: 10em;
 }
 
@@ -354,13 +360,14 @@ footer{
 }
 
 .map-container{
-    border: 3px solid #002147;
+    border: 3px solid #151839;
     width: 100%;
     margin: 0 auto;
 }
 
 .columna_formulario{
     padding: 2em;
+    color: #151839;
 }
 
 .formulario{
@@ -378,3 +385,12 @@ footer{
     width: 100%;
     min-height: 10em;
 }
+
+.formulario button{
+    color: yellow;
+    background-color: #151839 !important;
+    border-bottom: green;
+    min-width: 10em;
+    font-weight: bolder;
+}
+/*-----------MARTIN----------*/

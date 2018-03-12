@@ -1,325 +1,333 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>Agencia de Viajes</title>
+<head>
+    <meta charset="UTF-8">
+    <title>Agencia de Viajes</title>
 
-        <link type="text/css" rel="stylesheet" href="./bower_components/bootstrap/dist/css/bootstrap.min.css"/>
-        <link type="text/css" rel="stylesheet" href="./bower_components/fontawesome/css/font-awesome.min.css"/>
-        <link type="text/css" rel="stylesheet" href="./assets/css/style.css">
-    </head>
+    <link type="text/css" rel="stylesheet" href="./bower_components/bootstrap/dist/css/bootstrap.min.css"/>
+    <link type="text/css" rel="stylesheet" href="./bower_components/fontawesome/css/font-awesome.min.css"/>
+    <link type="text/css" rel="stylesheet" href="./assets/css/style.css">
+</head>
 
-    <body>
-        <header>
-            <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
-                <!-- Logo -->
-                <a class="navbar-brand" href="#">
-                    <img src="./assets/img/logo.png" alt="Logo" style="width:100px;">
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
+            <!-- Logo -->
+            <a class="navbar-brand" href="#">
+                <img src="./assets/img/logo.png" alt="Logo" style="width:100px;">
 
-                </a>
+            </a>
 
-                <!-- Toggler/collapsibe Button -->
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+            <!-- Boton para el menu desplegable -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-                <!-- Navbar links -->
-                <div class="collapse navbar-collapse" id="collapsibleNavbar">
-                    <ul class="navbar-nav mx-auto justify-content-center">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#enlace_destinos">Destinos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#enlace_quiensomos">Quién Somos!</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Donde Estamos</a>
-                        </li>
-                    </ul>
-                    <ul class="navbar-nav ml-auto justify-content-end socialmedia">
-                        <li class="nav-item">
-                            <a href="#"><i class="fa fa-twitter "></i></a>
-                        </li>
-                        <li>
-                            <a href="#"><i class="fa fa-whatsapp"></i></a>
-                        </li>
-                        <li>
-                            <a href="#"><i class="fa fa-facebook"></i></a>
-                        </li>
-                        <li>
-                            <a href="#"><i class="fa fa-instagram"></i></a>
-                        </li>
-                        <li>
-                            <a href="#"><i class="fa fa-linkedin"></i></a>
-                        </li>
-                        <li>
-                            <a href="#"><i class="fa fa-youtube "></i></a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-                <div class="wrapper_cabecera">
-                    <div class="container-fluid contenedor_cabecera">
-
-
-                        <div class="row fila_slideshow">
-                            <div class="col-12 slideshow">
-                                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                                    <ol class="carousel-indicators">
-                                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                                    </ol>
-                                    <div class="carousel-inner" role="listbox">
-                                        <div class="carousel-item active slide1">
-                                            <img class="d-block img-fluid" src="./assets/img/nathan-anderson-316188-unsplash.jpg" alt="First slide">
-                                            <div class="carousel-caption">
-                                                <h1>
-                                                    Viaja!
-                                                </h1>
-                                                <h2>
-                                                    Descubre lugares maravillosos!
-                                                </h2>
-                                                <button type="button" class="btn btn-primary boton_ver_destinos">ver destinos</button>
-                                            </div>
-                                        </div>
-                                        <div class="carousel-item slide2">
-                                            <img class="d-block img-fluid" src="./assets/img/playa.jpg" alt="Second slide">
-                                            <div class="carousel-caption">
-                                                <h2>
-                                                    Busca tu destino favorito!
-                                                </h2>
-                                                <div class="row">
-                                                    <div class="input-group col-md-12">
-                                                        <input class="form-control py-2" type="search" placeholder="Buscar...">
-                                                        <span class="input-group-append">
-                                                            <button class="btn btn-dark" type="button">
-                                                                <i class="fa fa-search"></i>
-                                                            </button>
-                                                        </span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img class="d-block img-fluid" src="./assets/img/nathan-anderson-316188-unsplash.jpg" alt="Third slide">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-        </header>
-        <section>
-            <div class="wrapper-destinos" id="enlace_destinos">
-                <div class="container-fluid cont">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <div id="effect-hover">
-                                <div class="img">
-                                    <img src= "assets/img/londres.jpg" alt="londres" width="522" height="240" class="img-fluid">
-                                    <div id="efecto">
-                                        <h2>Londres</h2>
-
-                                    </div>
-                                </div>
-
-                            </div>
-
-
-
-
-                        </div>
-
-
-                        <div class="col-md-4">
-                            <div id="effect-hover">
-                                <div class="img">
-                                    <img src= "assets/img/mykonos.jpg" alt="mykonos" width="522" height="240" class="img-fluid">
-                                    <div id="efecto">
-                                        <h2> Mykonos</h2>
-
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-
-
-                        <div class="col-md-4">
-                            <div id="effect-hover">
-                                <div class="img">
-                                    <img src= "assets/img/paris.jpg" alt="paris" width="522" height="240" class="img-fluid">
-                                    <div id="efecto">
-                                        <h2> Paris</h2>
-
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-
-                        <div class="container-fluid cont">
-                            <div class="row">
-                                <div class="col-md-4">
-                                    <div id="effect-hover">
-                                        <div class="img">
-                                            <img src= "assets/img/dublin.jpg" alt="dublin" width="522" height="287" class="img-fluid">
-                                            <div id="efecto">
-                                                <h2>Dublín</h2>
-
-                                            </div>
-                                        </div>
-
-                                    </div>
-
-
-
-
-                                </div>
-
-
-                                <div class="col-md-4">
-                                    <div id="effect-hover">
-                                        <div class="img">
-                                            <img src= "assets/img/amsterdam.jpg" alt="amsterdan" width="522" height="240" class="img-fluid">
-                                            <div id="efecto">
-                                                <h2>Amsterdam</h2>
-
-                                            </div>
-                                        </div>
-
-                                    </div>
-
-                                </div>
-
-                                <div class="col-md-4">
-                                    <div id="effect-hover">
-                                        <div class="img">
-                                            <img src= "assets/img/roma.jpg" alt="roma" width="522" height="240" class="img-fluid">
-                                            <div id="efecto">
-                                                <h2>Roma</h2>
-
-                                            </div>
-                                        </div>
-
-                                    </div>
-
-                                    </div>
-
-                                </div>
-                        </div>
-                    </div>
-                </div>
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav mx-auto justify-content-center">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#enlace_destinos">Destinos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#enlace_quiensomos">Quién Somos!</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#enlace_dondeestamos">Donde Estamos</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ml-auto justify-content-end socialmedia">
+                    <li class="nav-item">
+                        <a href="#"><i class="fa fa-twitter "></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-whatsapp"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-instagram"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-linkedin"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-youtube "></i></a>
+                    </li>
+                </ul>
             </div>
-        </section>
-        <section>
-            <div class="wrapper-informacion" id="enlace_quiensomos">
-                <div class="container-fluid">
-                    <div class="row fila_quiensomos">
-                        <div class="col-12 columna_quiensomos">
-                            <div class="quiensomos">
-                                <div class="texto_quiensomos">
-                                    <div class="titulo_quiensomos"><h1>QUIEN SOMOS!</h1></div>
-                                    <div class="descripcion_quiensomos">GeekHubs Travels es una agencia de viajes onine creada en 2009
-                                        para un equipo de viajeros entusiastas que deciden hacer de su pasion por conocer el mundo un modo de vida.
-                                        Desde nuestro inicios hemos diseñado mas de 500 viajes organizados a diferentes destinos de Europa, Norteamerica
-                                        y Asia.Nuestro objetivo ahora es ir ampliando horizontes poco a poco.</div>
-                                    <div class="boton_quiensomos"><button type="button" class="btn btn-primary">DESCUBRIR</button></div>
+        </nav>
+        <div class="wrapper_cabecera">
+            <div class="container-fluid contenedor_cabecera">
+
+
+                <div class="row fila_slideshow">
+                    <div class="col-12 slideshow">
+                        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                            </ol>
+                            <div class="carousel-inner" role="listbox">
+                                <div class="carousel-item active slide1">
+                                    <img class="d-block img-fluid" src="./assets/img/nathan-anderson-316188-unsplash.jpg"
+                                         alt="First slide">
+                                    <div class="carousel-caption">
+                                        <h1>
+                                            Viaja!
+                                        </h1>
+                                        <h2>
+                                            Descubre lugares maravillosos!
+                                        </h2>
+                                        <button type="button" class="btn btn-primary boton_ver_destinos">ver destinos
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="carousel-item slide2">
+                                    <img class="d-block img-fluid" src="./assets/img/playa.jpg" alt="Second slide">
+                                    <div class="carousel-caption">
+                                        <h2>
+                                            Busca tu destino favorito!
+                                        </h2>
+                                        <div class="row">
+                                            <div class="input-group col-md-12">
+                                                <input class="form-control py-2" type="search" placeholder="Buscar...">
+                                                <span class="input-group-append">
+                                                                <button class="btn btn-dark" type="button">
+                                                                    <i class="fa fa-search"></i>
+                                                                </button>
+                                                            </span>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
-        <section>
-            <div class="wrapper-mapa" id="enlace_dondeestamos">
-                <div class="row mapa">
-                    <div class="col-12 col-md-6 columna_mapa">
-                        <!--Google map-->
-                        <div id="map-container" class="map-container" style="height: 400px"></div>
+        </div>
+    </header>
+    <section>
+        <div class="wrapper-destinos" id="enlace_destinos">
+            <div class="container-fluid cont">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div id="effect-hover">
+                            <div class="img">
+                                <img src="assets/img/londres.jpg" alt="londres" width="522" height="240" class="img-fluid">
+                                <div id="efecto">
+                                    <h2>Londres</h2>
+
+                                </div>
+                            </div>
+
+                        </div>
+
+
                     </div>
-                    <div class="col-12 col-md-6 columna_formulario">
-                        <div class="texto_formulario">
-                            <p>E: enquiry@artiotravel.com</p>
-                            <p>P: 0264 123 4567</p>
-                            <p>Give us a call or drop by anytime, we endeavour to answer all enquiries within 24H on business day.</p>
-                            <p>We are open from 8:30AM - 4.00 PM week days.</p>
-                            <form class="formulario">
-                                <input type="text" id="name" class="name" placeholder="Name*">
-                                <input type="email" id="email" class="email" placeholder="Email*"></br>
-                                <input type="text" class="input-medium bfh-phone" data-format="+1 (ddd) ddd-dddd" placeholder="Phone*">
-                                <input type="text" id="country" class="country" placeholder="Country*"><br>
-                                <textarea id="mensaje" placeholder="Message*"></textarea>
-                            </form>
-                            <p>*Please complete all fields correctly</p>
-                            <div class="boton_formulario"><button type="button" class="btn btn-primary">ENVIAR MENSAJE</button></div>
+
+
+                    <div class="col-md-4">
+                        <div id="effect-hover">
+                            <div class="img">
+                                <img src="assets/img/mykonos.jpg" alt="mykonos" width="522" height="240" class="img-fluid">
+                                <div id="efecto">
+                                    <h2> Mykonos</h2>
+
+                                </div>
+                            </div>
 
                         </div>
                     </div>
-                </div>
-            </div>
-        </section>
-        <footer>
-                <div class="wrapper-piedepagina">
+
+
+                    <div class="col-md-4">
+                        <div id="effect-hover">
+                            <div class="img">
+                                <img src="assets/img/paris.jpg" alt="paris" width="522" height="240" class="img-fluid">
+                                <div id="efecto">
+                                    <h2> Paris</h2>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
                     <div class="container-fluid cont">
                         <div class="row">
-                            <div id="ayuda"class="col-md-4 col1">
+                            <div class="col-md-4">
+                                <div id="effect-hover">
+                                    <div class="img">
+                                        <img src="assets/img/dublin.jpg" alt="dublin" width="522" height="287"
+                                             class="img-fluid">
+                                        <div id="efecto">
+                                            <h2>Dublín</h2>
 
-                                <h3> ¿Necesitas ayuda?	</h3>
-                                <h4>
-                                    02641234567 </h4>
-                                <h4>  enquery@geekshubstravels </h4>
+                                        </div>
+                                    </div>
 
-                                <h4> Lun-vi 9:30-19:00 Sabado 10:00-14:00 </h4>
+                                </div>
+
 
                             </div>
 
 
-                            <div id= "informacion" class="col-md-4">
+                            <div class="col-md-4">
+                                <div id="effect-hover">
+                                    <div class="img">
+                                        <img src="assets/img/amsterdam.jpg" alt="amsterdan" width="522" height="240"
+                                             class="img-fluid">
+                                        <div id="efecto">
+                                            <h2>Amsterdam</h2>
 
+                                        </div>
+                                    </div>
 
-                                <h3> INFORMACIÓN  </h3>
-                                <h6>  Quienes somos </h6>
-
-                                <h6> Preguntas frecuentes </h6>
-                                <h6>  Condiciones generales </h6>
-
-                                <h6> Aviso legal </h6>
-
-                                <h6> Contacto </h6>
-                                <h6> Programas de puntos </h6>
+                                </div>
 
                             </div>
 
-                            <div id= "suscribete" class="col-md-4">
+                            <div class="col-md-4">
+                                <div id="effect-hover">
+                                    <div class="img">
+                                        <img src="assets/img/roma.jpg" alt="roma" width="522" height="240"
+                                             class="img-fluid">
+                                        <div id="efecto">
+                                            <h2>Roma</h2>
 
+                                        </div>
+                                    </div>
 
-                                <h3> SUSCRÍBETEA LA NEWSLETTER  </h3>
-                                <form name="form1" method="post" action="">
-                                    <input placeholder="Correo electrónico " type="text" name="nombre" id="nombre">
-                                    <input style="border: #FF9900 1px solid; color:#000033 ; background-color: #FF9900"  type="submit" name="suscribe" id="suscribe" value="Suscribete">
-                                </form>
+                                </div>
 
+                            </div>
 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="wrapper-informacion" id="enlace_quiensomos">
+            <div class="container-fluid">
+                <div class="row fila_quiensomos">
+                    <div class="col-12 columna_quiensomos">
+                        <div class="quiensomos">
+                            <div class="texto_quiensomos">
+                                <div class="titulo_quiensomos"><h1>QUIEN SOMOS!</h1></div>
+                                <div class="descripcion_quiensomos">GeekHubs Travels es una agencia de viajes onine creada
+                                    en 2009
+                                    para un equipo de viajeros entusiastas que deciden hacer de su pasion por conocer el
+                                    mundo un modo de vida.
+                                    Desde nuestro inicios hemos diseñado mas de 500 viajes organizados a diferentes destinos
+                                    de Europa, Norteamerica
+                                    y Asia.Nuestro objetivo ahora es ir ampliando horizontes poco a poco.
+                                </div>
+                                <div class="boton_quiensomos">
+                                    <button type="button" class="btn btn-primary">DESCUBRIR</button>
+                                </div>
                             </div>
                         </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="wrapper-mapa" id="enlace_dondeestamos">
+            <div class="row mapa">
+                <div class="col-12 col-md-6 columna_mapa">
+                    <!--Google map-->
+                    <div id="map-container" class="map-container" style="height: 400px"></div>
+                </div>
+                <div class="col-12 col-md-6 columna_formulario">
+                    <div class="texto_formulario">
+                        <p>E: enquiry@artiotravel.com</p>
+                        <p>P: 0264 123 4567</p>
+                        <p>Give us a call or drop by anytime, we endeavour to answer all enquiries within 24H on business
+                            day.</p>
+                        <p>We are open from 8:30AM - 4.00 PM week days.</p>
+                        <form class="formulario">
+                            <input type="text" id="name" class="name" placeholder="Name*">
+                            <input type="email" id="email" class="email" placeholder="Email*"></br>
+                            <input type="text" class="input-medium bfh-phone" data-format="+1 (ddd) ddd-dddd"
+                                   placeholder="Phone*">
+                            <input type="text" id="country" class="country" placeholder="Country*"><br>
+                            <textarea id="mensaje" placeholder="Message*"></textarea>
+
+                        <p>*Please complete all fields correctly</p>
+                        <div class="boton_formulario">
+                            <button type="button" class="btn btn-primary">ENVIAR MENSAJE</button>
+                        </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="wrapper-piedepagina">
+            <div class="container-fluid cont">
+                <div class="row">
+                    <div id="ayuda" class="col-md-4 col1">
+
+                        <h3> ¿Necesitas ayuda? </h3>
+                        <h4>
+                            02641234567 </h4>
+                        <h4> enquery@geekshubstravels </h4>
+
+                        <h4> Lun-vi 9:30-19:00 Sabado 10:00-14:00 </h4>
+
+                    </div>
+
+
+                    <div id="informacion" class="col-md-4">
+
+
+                        <h3> INFORMACIÓN </h3>
+                        <h6> Quienes somos </h6>
+
+                        <h6> Preguntas frecuentes </h6>
+                        <h6> Condiciones generales </h6>
+
+                        <h6> Aviso legal </h6>
+
+                        <h6> Contacto </h6>
+                        <h6> Programas de puntos </h6>
+
+                    </div>
+
+                    <div id="suscribete" class="col-md-4">
+
+
+                        <h3> SUSCRÍBETEA LA NEWSLETTER </h3>
+                        <form name="form1" method="post" action="">
+                            <input placeholder="Correo electrónico " type="text" name="nombre" id="nombre">
+                            <input style="border: #FF9900 1px solid; color:#000033 ; background-color: #FF9900"
+                                   type="submit" name="suscribe" id="suscribe" value="Suscribete">
+                        </form>
+
 
                     </div>
                 </div>
-                </div>
-        </footer>
+
+            </div>
+        </div>
+        </div>
+    </footer>
         <script src="./bower_components/jquery/dist/jquery.min.js"></script>
         <script src="./bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
         <script src="./bower_components/bootstrap-autohidingnavbar/dist/jquery.bootstrap-autohidingnavbar.min.js"></script>
         <!--Google Maps-->
         <script src="https://maps.google.com/maps/api/js?key=AIzaSyCUTXfd8z9-4A870M0a3urFonD-EgLA5I8"></script>
 
-        <!-- Google Maps settings -->
+        <!-- Google Maps configuracion -->
         <script>
-            // Regular map
+            // MAPA REGULAR
             function regular_map() {
                 var var_location = new google.maps.LatLng(39.4818567, -0.3564174);
 
@@ -338,9 +346,9 @@
                 });
             }
 
-            // Initialize maps
+            // Inicializar mapa
             google.maps.event.addDomListener(window, 'load', regular_map);
         </script>
         <script type="text/javascript" src="assets/js/main.js"></script>
-    </body>
+</body>
 </html>

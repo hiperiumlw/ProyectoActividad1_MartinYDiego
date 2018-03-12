@@ -1,32 +1,34 @@
 var onResize = function() {
-    // apply dynamic padding at the top of the body according to the fixed navbar height
+    //Soluciona el problema de FixedTop
+    //Aplicamos dinamicamente a la parte superior del body un padding acorde a la altura del menu
     $("body").css("padding-top", $(".navbar").height());
 };
 
 
 $(document).ready(function(){
-    // call it also when the page is ready after load or reload
+    //Llamamos esta funcion cuando la pagina a cargado correctamente
     $(function() {
         onResize();
     });
-    // Add smooth scrolling to all links
+
+    // Añadimos efecto al scroll de los links , para que el movimiento sea mas suave
     $("a").on('click', function(event) {
 
-        // Make sure this.hash has a value before overriding default behavior
+        // El hash lo que hace es leer el atributo HREF de 'a' y si encuentra alguna '#'
+        // coge el elemento que empieza por '#'
         if (this.hash !== "") {
-            // Prevent default anchor click behavior
+            // Previene el comportamiento "natural" de los enlaces
             event.preventDefault();
 
-            // Store hash
+            // Guardamos el hash
             var hash = this.hash;
 
-            // Using jQuery's animate() method to add smooth page scroll
-            // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+            // Usamos la funcion animate de JQuery para hacer que el scroll sea mas suave
             $('html, body').animate({
                 scrollTop: $(hash).offset().top
             }, 1000, function(){
 
-                // Add hash (#) to URL when done scrolling (default click behavior)
+                // Modifica la URL cuando acaba el Scroll (ver url)
                 window.location.hash = hash;
             });
         } // End if
